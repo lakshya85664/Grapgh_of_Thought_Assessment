@@ -1,0 +1,30 @@
+{
+  "counts_branch": {
+    "counts": 2
+  },
+  "keywords_branch": {
+    "keywords": [
+      "agents",
+      "plan",
+      "tasks",
+      "agents",
+      "execute"
+    ]
+  },
+  "merged_output": {
+    "keywords": [
+      "agents",
+      "plan",
+      "tasks",
+      "agents",
+      "execute"
+    ],
+    "sentences": 2
+  },
+  "split_output": {
+    "sentences": [
+      "Agents plan tasks",
+      "Agents execute tasks"
+    ]
+  }
+}

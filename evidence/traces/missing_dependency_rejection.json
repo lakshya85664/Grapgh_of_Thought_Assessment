@@ -1,0 +1,6 @@
+{
+  "error_type": "ValueError",
+  "message": "node 'merge' depends on missing node 'missing_node'",
+  "scenario": "missing dependency",
+  "status": "rejected"
+}

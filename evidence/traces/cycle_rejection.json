@@ -1,0 +1,6 @@
+{
+  "error_type": "ValueError",
+  "message": "graph contains a cycle involving node 'a'",
+  "scenario": "two-node dependency cycle",
+  "status": "rejected"
+}

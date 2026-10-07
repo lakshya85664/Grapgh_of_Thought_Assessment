@@ -1,0 +1,55 @@
+{
+  "assessment": "Topic 6: Create an Executable Graph of Thought Workflow",
+  "branch_structure": {
+    "branches": [
+      "keywords",
+      "counts"
+    ],
+    "merge": "merge",
+    "source": "split"
+  },
+  "node_count": 6,
+  "nodes": [
+    {
+      "dependencies": [],
+      "function": "_read",
+      "name": "read"
+    },
+    {
+      "dependencies": [
+        "read"
+      ],
+      "function": "_normalize",
+      "name": "normalize"
+    },
+    {
+      "dependencies": [
+        "normalize"
+      ],
+      "function": "_split",
+      "name": "split"
+    },
+    {
+      "dependencies": [
+        "split"
+      ],
+      "function": "_keywords",
+      "name": "keywords"
+    },
+    {
+      "dependencies": [
+        "split"
+      ],
+      "function": "_counts",
+      "name": "counts"
+    },
+    {
+      "dependencies": [
+        "keywords",
+        "counts"
+      ],
+      "function": "_merge",
+      "name": "merge"
+    }
+  ]
+}

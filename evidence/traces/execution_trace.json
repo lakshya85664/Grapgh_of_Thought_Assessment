@@ -1,0 +1,25 @@
+{
+  "assessment": "Topic 6: Create an Executable Graph of Thought Workflow",
+  "execution_order": [
+    "read",
+    "normalize",
+    "split",
+    "keywords",
+    "counts",
+    "merge"
+  ],
+  "input": {
+    "text": "Agents plan tasks. Agents execute tasks."
+  },
+  "node_count": 6,
+  "result": {
+    "keywords": [
+      "agents",
+      "plan",
+      "tasks",
+      "agents",
+      "execute"
+    ],
+    "sentences": 2
+  }
+}

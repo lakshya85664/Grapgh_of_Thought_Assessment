@@ -1,0 +1,41 @@
+{
+  "analysis": {
+    "keywords": [
+      "agents",
+      "plan",
+      "tasks",
+      "agents",
+      "execute"
+    ],
+    "merged": {
+      "keywords": [
+        "agents",
+        "plan",
+        "tasks",
+        "agents",
+        "execute"
+      ],
+      "sentences": 2
+    },
+    "normalized_text": "Agents plan tasks. Agents execute tasks.",
+    "sentence_count": 2,
+    "sentences": [
+      "Agents plan tasks",
+      "Agents execute tasks"
+    ]
+  },
+  "execution": {
+    "node_count": 6,
+    "order": [
+      "read",
+      "normalize",
+      "split",
+      "keywords",
+      "counts",
+      "merge"
+    ]
+  },
+  "input": {
+    "text": "Agents plan tasks. Agents execute tasks."
+  }
+}
